@@ -8,13 +8,9 @@ if (url < 1 || url > 10) {
 } else {
     if (url != 7) {
         id.textContent = text[url - 1];
+        document.getElementById("button").style.display="none";
     }else{
         document.getElementById("button").style.backgroundColor="blue";
-    }
-}
-
-function click(){
-    if(url==7){
-        window.open("https://ent-dev-116.github.io/QRquest/main-title.html");
+        document.getElementById("button").style.display="block";
     }
 }
