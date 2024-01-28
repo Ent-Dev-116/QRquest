@@ -15,6 +15,6 @@ if (url < 1 || url > 10) {
 
 function click(){
     if(url==7){
-        
+        window.open("https://ent-dev-116.github.io/QRquest/main-title.html");
     }
 }
