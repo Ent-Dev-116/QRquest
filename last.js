@@ -5,7 +5,7 @@ function Q1ans() {
     &&document.getElementById("answer4").value == "オメデトウ"
     &&document.getElementById("answer5").value == "トキハカネナリ"
     &&document.getElementById("answer6").value == "サン") {
-        ("https://ent-dev-116.github.io/QRquest/correct.html");
+        window.open("https://ent-dev-116.github.io/QRquest/correct.html");
     } else {
         alert("残念。");
     }
